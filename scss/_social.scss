@@ -1,0 +1,37 @@
+.social {
+	display: block;
+	width: 100%;
+	
+	&__container {
+		width: to-percent(1100px, 1400px);
+		margin: 0 auto;
+		padding: em(20px) 0;
+	}
+	
+	&__column {
+		display: table-cell;
+		vertical-align: middle;
+
+		&_discription {
+			width: to-percent(330px, 1100px);
+		}
+	}
+}
+
+.social-btns {
+	display: block;
+	text-align: right;
+
+	&__item {
+		margin-right: em(20px);
+	}
+}
+
+.social-discription {
+	&__header {
+		margin-bottom: em(10px);
+	}
+	&__text {
+		
+	}
+}

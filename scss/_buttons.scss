@@ -8,20 +8,30 @@
 }
 
 .social-btn {
+	cursor: pointer;
 	height: 46px;
 	width: 60px;
 	background-image: url('../img/social-btn.png');
 	background-repeat: no-repeat;
     background-position: 15px 0;
-    
-    &:hover {
-    	background-position: -77px 0;
-    }
+    display: inline-block;
 
 	&_twitter {
 		background-position: -77px 0;
 	}
 	&_google {
 		background-position: -180px 0;
+	}
+	&_pinterest {
+		background-position: -273px 0;
+	}
+	&_instagram {
+		background-position: -374px 0;
+	}
+	&_stumble {
+		background-position: -481px 0;
+	}
+	&_rss {
+		background-position: -585px 0;
 	}
 }
