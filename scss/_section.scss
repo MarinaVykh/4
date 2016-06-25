@@ -1,0 +1,19 @@
+.section {
+	width: 100%;
+	&__container {
+		width: to-percent(1100px, 1400px);
+		margin: 0 auto;
+		padding: em(150px) 0;
+	}
+
+	&__row {
+		margin: 0 0 em(25px);
+		&:last-chils {
+			margin-bottom: em(25px);
+		}
+	}
+
+	&_darker {
+		background-color: #f5f5f5;
+	}
+}
