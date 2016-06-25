@@ -3,6 +3,12 @@
 	height: 27px;
 	display: block;
 	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	@include for-retina () {
+		background-image: url('../img/logo_@2.png');
+	}
 
 	&_big {
 		width: 175px;

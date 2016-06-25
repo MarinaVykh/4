@@ -55,15 +55,11 @@
 }
 
 .tabs-table-content {
-	display: none;
+	display: block;
+	-webkit-animation: fadeEffect 10s;
+	animation: fadeEffect 10s;
 	padding-left: em(100px);
 	transition: opacity .5s;
-
-	&_active {
-		display: block;
-		-webkit-animation: fadeEffect 10s;
-    	animation: fadeEffect 10s;
-	}
 
 	&__header {
 		margin-bottom: em(50px);

@@ -29,3 +29,8 @@ $size--font-base: $size--font-small;
 @mixin respond-to($param, $media) {
 	@media only screen and ($param: $media) { @content; }
 }
+@mixin for-retina () {
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+     @content;
+	}
+}
